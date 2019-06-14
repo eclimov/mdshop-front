@@ -1,5 +1,7 @@
 <template>
   <div>
+    <Header />
+
     <v-layout row wrap class="mt-4">
       <v-flex xs8 class="pa-5">
         <router-view />
@@ -10,8 +12,11 @@
 
 <script>
 
+import Header from '@/components/layouts/Header'
+
 export default {
-  name: 'CommonLayout'
+  name: 'CommonLayout',
+  components: { Header }
 }
 </script>
 

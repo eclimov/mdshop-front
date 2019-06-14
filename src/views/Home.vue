@@ -1,6 +1,6 @@
 <template>
-  <div>
-    QWERTY
+  <div class="home">
+    Test
   </div>
 </template>
 
