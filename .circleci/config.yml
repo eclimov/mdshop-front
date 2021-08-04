@@ -23,7 +23,7 @@ jobs:
 
   deploy:
     docker:
-      - image: alpine
+      - image: docker:18.05.0-ce-git
     parallelism: 1
     working_directory: ~/eclimov/mdshop-front
     steps:
