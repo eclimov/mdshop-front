@@ -44,7 +44,7 @@ jobs:
               docker image prune -f
               docker network prune -f
               docker volume prune -f"
-            scp dist/ $DEPLOY_USER@$DEPLOY_HOST:/root/opt/mdshop-front/dist
+            scp -r dist/ $DEPLOY_USER@$DEPLOY_HOST:/root/opt/mdshop-front/dist
 
 workflows:
   version: 2
