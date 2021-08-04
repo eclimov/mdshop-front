@@ -38,7 +38,7 @@ jobs:
               cd /root/opt
               mkdir -p mdshop-front
               rm -r mdshop-front/*"
-            scp -r dist/ $DEPLOY_USER@$DEPLOY_HOST:/root/opt/mdshop-front
+            scp -r dist $DEPLOY_USER@$DEPLOY_HOST:/root/opt/mdshop-front
 
 workflows:
   version: 2
