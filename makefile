@@ -1,14 +1,8 @@
 up:
 	docker-compose up
 
-up-prod:
-	docker-compose -f docker-compose.prod.yml up
-
 stop:
 	docker-compose stop
-
-webserver:
-	docker-compose exec webserver sh
 
 app:
 	docker-compose exec app sh
