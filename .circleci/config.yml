@@ -23,7 +23,7 @@ jobs:
 
   deploy:
     docker:
-      - image: circleci/golang:1.9.6
+      - image: alpine
     parallelism: 1
     working_directory: ~/eclimov/mdshop-front
     steps:
