@@ -36,9 +36,9 @@ jobs:
           command: |
             ssh -o "StrictHostKeyChecking no" $DEPLOY_USER@$DEPLOY_HOST bash -c "
               cd /root/opt
-              rm -rf mdshop-front
               mkdir -p mdshop-front"
-            scp -r dist/ $DEPLOY_USER@$DEPLOY_HOST:/root/opt/mdshop-front/dist
+              rm -r /mdshop-front/*
+            scp -r dist/ $DEPLOY_USER@$DEPLOY_HOST:/root/opt/mdshop-front
 
 workflows:
   version: 2
