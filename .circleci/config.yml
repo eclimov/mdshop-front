@@ -32,7 +32,6 @@ jobs:
       - attach_workspace:
           at: ~/eclimov/mdshop-front
       - run:
-          name: Deploy to DigitalOcean
           command: |
 #            s3deploy -source=dist/ -region=us-west-2 -bucket=rossta-connect-four
             ssh -o "StrictHostKeyChecking no" $DEPLOY_USER@$DEPLOY_HOST bash -c "
