@@ -1,7 +1,7 @@
 <template>
   <v-toolbar class="toolbar">
     <v-toolbar-title>
-      <router-link :to="{ name: 'home' }">StackOverflow</router-link>
+      <router-link :to="{ name: 'home' }">Artprezent</router-link>
     </v-toolbar-title>
 
     <v-spacer />
