@@ -46,6 +46,7 @@ workflows:
     jobs:
       - build
       - deploy:
+          context: mdshop
           requires:
             - build
           filters:

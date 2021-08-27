@@ -1,5 +1,5 @@
 <template>
-  <div>left menu test keko</div>
+  <div>left menu test kek 4eburek</div>
 </template>
 
 <script>
