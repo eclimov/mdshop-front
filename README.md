@@ -1,3 +1,5 @@
+[![eclimov](https://circleci.com/gh/eclimov/mdshop-front.svg?style=svg)](https://circleci.com/gh/eclimov/mdshop-front)
+
 # Front-end part of the "mdshop" project
 
 ## Fix permissions to project's directories
