@@ -1,5 +1,7 @@
 # Front-end part of the "mdshop" project [![eclimov](https://circleci.com/gh/eclimov/mdshop-front.svg?style=svg)](https://circleci.com/gh/eclimov/mdshop-front)
 
+Deprecated in favor of [mdshop-ui-admin](https://github.com/eclimov/mdshop-ui-admin) and [mdshop-ui-public](https://github.com/eclimov/mdshop-ui-public).
+
 ## Fix permissions to project's directories
 ```
 sudo chown -R $USER:$USER .
